@@ -1,0 +1,105 @@
+*{
+    font-size: large;
+}
+
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.custom-nav-input{
+    background-color: rgb(0, 0, 93) !important;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+    font-weight: bold;
+}
+
+.full-width-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header{
+    text-align: center;
+    /* background: rgb(0, 0, 93); */
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+#web-welcome {
+    padding: 20px;
+    text-decoration: underline;
+}
+
+/* Contact Page */
+
+#contact-submit{
+    margin: 10px;
+}
+
+input{
+    margin: auto;
+    margin-top: 5px; margin-bottom: 5px;
+}
+
+table img{
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#form-dir{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+#cont-p{
+    text-align: left;
+}
+
+/* CV page */
+
+.card{
+    background: black;
+    border: solid 3px white;
+
+}
+
+#cv-text{
+    text-align: left;
+}
+
+/* /* Projects Page */
+
+.tab-pane .row{
+    margin-top: 40px;
+    border: solid 3px white;
+}
+
+.project-date{
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    padding: 15px;
+}
+
+
