@@ -8,24 +8,26 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel= "stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container-fluid header">
         <h1>Alexander Torres Vivaldo</h1>
     </div>
 
-
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary custom-nav-input">
         <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              <a class="nav-link" href="cv.html">CV</a>
-              <a class="nav-link" href="projects.html">Projects</a>
-              <a class="nav-link" href="contact.html">Contact</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="cv.html">CV</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
-          </div>
         </div>
     </nav>
 
@@ -50,6 +52,9 @@
             <li class="nav-item" role="presentation">
                 <a class="nav-link" id="python-tab" data-bs-toggle="tab" href="#python" role="tab" aria-controls="python" aria-selected="false">Python</a>
             </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="data-science-tab" data-bs-toggle="tab" href="#datascience" role="tab" aria-controls="datascience" aria-selected="false">Data Science</a>
+            </li>
         </ul>
 
         <!-- Tab Content -->
@@ -65,17 +70,17 @@
                             flipping, matching, and score updates. I also implemented CSS 3D transformations, 
                             state management, event listeners, and a shuffle function using an Immediately 
                             Invoked Function Expression (IIFE) to randomize card order.</p>
-                            <p>Website Link: 
-                                <a href="https://alexdagreat555.github.io/ssb_cardgame/" target="_blank">
-                                    https://alexdagreat555.github.io/ssb_cardgame/
-                                </a>
-                            </p>
-                            <p>Github Link:
-                                <a href="https://github.com/AlexDaGreat555/ssb_cardgame" target="_blank">
-                                    https://github.com/AlexDaGreat555/ssb_cardgame
-                                </a>
-                            </p>
-                            <p class="project-date"> August 2024</p>
+                        <p>Website Link: 
+                            <a href="https://alexdagreat555.github.io/ssb_cardgame/" target="_blank">
+                                https://alexdagreat555.github.io/ssb_cardgame/
+                            </a>
+                        </p>
+                        <p>Github Link:
+                            <a href="https://github.com/AlexDaGreat555/ssb_cardgame" target="_blank">
+                                https://github.com/AlexDaGreat555/ssb_cardgame
+                            </a>
+                        </p>
+                        <p class="project-date">August 2024</p>
                     </div>
                     <div class="col">
                         <img src="../images/ssb-cardgame.jpg" class="img-fluid full-width-image" alt="Super Smash Bros Card Game Website">
@@ -89,11 +94,15 @@
                             to user testing results. Built website utilizing HTML, CSS, JavaScript, and 
                             JQuery to create an interactive and user friendly interface. Meticulously 
                             constructed website according to clients specifications and business requirements.</p>
-                        <p>Website Link: <a href="https://alexdagreat555.github.io/sayitwithsweets.github.io/" target="_blank">
-                            https://alexdagreat555.github.io/sayitwithsweets.github.io/</a>
+                        <p>Website Link: 
+                            <a href="https://alexdagreat555.github.io/sayitwithsweets.github.io/" target="_blank">
+                                https://alexdagreat555.github.io/sayitwithsweets.github.io/
+                            </a>
                         </p>
-                        <p>Github Link: <a href="https://github.com/AlexDaGreat555/sayitwithsweets.github.io" target="_blank">
-                            https://github.com/AlexDaGreat555/sayitwithsweets.github.io</a>
+                        <p>Github Link: 
+                            <a href="https://github.com/AlexDaGreat555/sayitwithsweets.github.io" target="_blank">
+                                https://github.com/AlexDaGreat555/sayitwithsweets.github.io
+                            </a>
                         </p>
                         <p class="project-date">May 2024</p>
                     </div>
@@ -103,6 +112,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
                 <div class="row align-items-center">
                     <div class="col">
@@ -149,6 +159,29 @@
                     <div class="col">
                         <img src="../images/battleship-py.jpg" class="img-fluid full-width-image" alt="microsoft paints program screenshot">
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="datascience" role="tabpanel" aria-labelledby="data-science-tab">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3>Discord Database Design &amp; Development Project</h3>
+                    <p>In this project I reengineered the early stages of Discords database 
+                        by incrementally transforming ten user stories to conceptual and 
+                        physical model to develop and initialize the database via PostgreSQL</p>
+                    <p>I developed and executed ten user stories using advanced SQL queries, 
+                        triggers, and functions to ensure database integrity and meet business 
+                        requirements for the company</p>
+                    <p>Github Link: 
+                        <a href="https://github.com/AlexDaGreat555/Discord_Database" target="_blank">
+                            https://github.com/AlexDaGreat555/Discord_Database
+                        </a>
+                    </p>
+                    <p class="project-date">November 2024</p>
+                </div>
+                <div class="col">
+                    <img src="../images/database_table.jpg" class="img-fluid full-width-image" alt="Database Project screenshot">
                 </div>
             </div>
         </div>
