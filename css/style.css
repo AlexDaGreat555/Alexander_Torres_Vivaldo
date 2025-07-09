@@ -45,6 +45,22 @@ body {
     text-decoration: underline;
 }
 
+#about-me-content{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#about-me-content img{
+    min-width: 200px;
+    max-width: 500px;
+    border-radius: 30px;
+}
+
 /* Contact Page */
 
 #contact-submit{
